@@ -14,6 +14,7 @@
 		D5E648642BE9363C00BBC0F3 /* PawPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E648632BE9363C00BBC0F3 /* PawPlannerTests.swift */; };
 		D5E6486E2BE9363D00BBC0F3 /* PawPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E6486D2BE9363D00BBC0F3 /* PawPlannerUITests.swift */; };
 		D5E648702BE9363D00BBC0F3 /* PawPlannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E6486F2BE9363D00BBC0F3 /* PawPlannerUITestsLaunchTests.swift */; };
+		D5E648822BE93B0F00BBC0F3 /* Pawplanner.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D5E648812BE93B0F00BBC0F3 /* Pawplanner.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D5E648692BE9363C00BBC0F3 /* PawPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PawPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E6486D2BE9363D00BBC0F3 /* PawPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawPlannerUITests.swift; sourceTree = "<group>"; };
 		D5E6486F2BE9363D00BBC0F3 /* PawPlannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PawPlannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D5E648812BE93B0F00BBC0F3 /* Pawplanner.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Pawplanner.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		D5E648512BE9363B00BBC0F3 /* PawPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				D5E6487C2BE9364B00BBC0F3 /* ML Model */,
 				D5E648522BE9363B00BBC0F3 /* PawPlannerApp.swift */,
 				D5E648542BE9363B00BBC0F3 /* ContentView.swift */,
 				D5E648562BE9363C00BBC0F3 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				D5E6486F2BE9363D00BBC0F3 /* PawPlannerUITestsLaunchTests.swift */,
 			);
 			path = PawPlannerUITests;
+			sourceTree = "<group>";
+		};
+		D5E6487C2BE9364B00BBC0F3 /* ML Model */ = {
+			isa = PBXGroup;
+			children = (
+				D5E648812BE93B0F00BBC0F3 /* Pawplanner.mlmodel */,
+			);
+			path = "ML Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5E648822BE93B0F00BBC0F3 /* Pawplanner.mlmodel in Sources */,
 				D5E648552BE9363B00BBC0F3 /* ContentView.swift in Sources */,
 				D5E648532BE9363B00BBC0F3 /* PawPlannerApp.swift in Sources */,
 			);
